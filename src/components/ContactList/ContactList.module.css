@@ -1,0 +1,19 @@
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contactItem {
+  position: relative;
+  font-size: 20px;
+  width: 300px;
+}
+.deleteBtn {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
